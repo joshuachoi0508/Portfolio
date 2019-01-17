@@ -1,0 +1,22 @@
+#first-linkedin {
+    width: 24px;
+    height: 25px;
+    margin-right: 3px;
+}
+
+#second-linkedin {
+    width: 30px;
+    height: 30px;
+}
+
+#first-github {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
