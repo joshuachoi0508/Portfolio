@@ -84,11 +84,12 @@
 									database, and React.js with Redux framework on the frontend.
 								</h4>
 								<ul class="alt">
-									<li>Included Amazon Web Services to increase the app’s processing time and use minimal local storage memory.</li>
+									<li>Included AWS S3 buckets along with Active Storage to decrease the app’s processing time and use minimal local storage
+									memory when loading images.</li>
 									<li>Deployed AJAX request autocomplete and Active Record querying to list and filter search results in real time.</li>
 									<li>Utilized a scrollbar listener and Active Record queries to conditionally render additional photos on the index page in
-									order to increase processing time instead of rendering all photos at once (infinite scroll).</li>
-									<li>Incorporated RESTful JSON APIs to render jBuilder views to serve data into the front-end.</li>
+									order to decrease processing time instead of rendering all photos at once (infinite scroll).</li>
+									<li>Incorporated RESTful JSON APIs to render jBuilder views to serve data into the front end.</li>
 								</ul>
 								<div class="project-buttons">
 									<a href="https://github.com/joshuachoi0508/OfficeGram" class="button icon fa-github">GitHub</a>
@@ -103,11 +104,10 @@
 									Built with MongoDB, Express, React, and Node.
 								</h4>
 								<ul class="alt">
-									<li>Connected Google Maps API to Jamma’s global state in order to update the map in real time and gained advanced knowledge
-									on how Google Maps API connects to an application’s front/back-end.</li>
-									<li>Mapped happy hour submissions on the index page by using Google Geocoding API to locate resulting coordinates from user
-									input.</li>
-									<li>Implemented a click listener on each pin on the map that corresponds to the correct business modal.</li>
+									<li>Connected Google Maps API to Jamma’s global redux store in order to update the map in real time.</li>
+									<li>Mapped happy hour submissions on the index page by using Google Geocoding API to convert user inputted addresses to x,
+									y geo coordinates.</li>
+									<li>Implemented a click handler on each pin on the map that displays information about the connected business in a modal.</li>
 								</ul>
 								<div class="project-buttons">
 									<a href="https://github.com/joshuachoi0508/Jamma" class="button icon fa-github">GitHub</a>
@@ -121,8 +121,9 @@
 								<ul class="alt">
 									<li>Incorporated d3.layout.cloud to create two different word clouds that visually shows each word’s frequency and polarity
 									in a given text sample.</li>
-									<li>Created different geometric shapes using D3 and used them to create pie/bar charts.</li>
-									<li>Used D3 mouse events to create made charts interactive.</li>
+									<li>Created different geometric shapes using D3 and used them to create pie/bar charts allowing users to quickly compare
+									information about multiple subjects.</li>
+									<li>Used D3 mouse events to create an interactive user experience.</li>
 								</ul>
 								<div class="project-buttons">
 									<a href="https://github.com/joshuachoi0508/Lana-vs-Jesus" class="button icon fa-github">GitHub</a>
